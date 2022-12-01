@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_7sdp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="@dimen/_7sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <LinearLayout
+         android:padding="@dimen/_5sdp"
+         android:orientation="vertical"
+         android:background="@color/appPrimaryBlue"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/circle_yellow_button"
+        android:id="@+id/btnCloseDialog"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:padding="@dimen/_5sdp"
+        android:background="@color/appPrimaryBlue"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_weight="1"
+        android:text="@string/products"
+        android:id="@+id/itemName"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="@dimen/_18sdp"
+        android:textColor="@color/white"
+        android:text="\u20B9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/itemPrice"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:text="21240"
+        android:textStyle="bold"
+        android:textSize="@dimen/_18sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+     </LinearLayout>
+
+    <ListView
+        android:id="@+id/itemDescription"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

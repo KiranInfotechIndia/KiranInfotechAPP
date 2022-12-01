@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/awsPriceView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="@dimen/_7sdp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="@dimen/_7sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/awsPlanName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/appPrimaryBlue"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/awsPlans"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/appSecondaryBlue"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/systemConfig"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="TallyPrime Latest Release \nPre-Installed"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/awsPlanUsers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="For 1 User"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/awsPlanRAM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="4 GB RAM"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/awsPlanStorage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="5 GB Storage"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/awsPlanBackup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="5 GB Backup Storage"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/awsPlanDuration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="312 hours per month usage"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnEquiryNow"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:text="Enquire Now"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/_7sdp"
+                    android:background="@drawable/button"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_30sdp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="events">Events</string>
+    <string name="support">Support</string>
+    <string name="home">Home</string>
+    <string name="products">Products</string>
+    <string name="solutions">Solutions</string>
+    <string name="training">Certification</string>
+    <string name="awsPlans">Aws Plans</string>
+    <string name="systemConfig">System Configurations</string>
+    <string name="pricing">Pricing</string>
+    <string name="particulars">Particulars</string>
+    <string name="quarterly">Quarterly</string>
+    <string name="halfYearly">Half Yearly</string>
+    <string name="yearly">Yearly</string>
+    <string name="taxableValue">Taxable Value</string>
+    <string name="gst">GST</string>
+    <string name="total">Total</string>
+    <string name="register_now">Register Now</string>
+    <string name="address">Address</string>
+    <string name="email">Email ID</string>
+    <string name="phone">Phone</string>
+    <string name="mobileNo">Mobile</string>
+    <string name="academy">Academy</string>
+    <string name="course">Course</string>
+    <string name="enquiry_form">Enquiry Form</string>
+    <string name="company_name">Company Name</string>
+    <string name="required">* required</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="product_name">Product Name</string>
+    <string name="remarks">Remarks</string>
+    <string name="contact_date">Date of Contact</string>
+    <string name="submit">Submit</string>
+    <string name="registrationform">Registration Form</string>
+    <string name="eventRegistration">Event Registration</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="toolbarSubTitle">5 star Certified Tally Partner | Tally Solutions Pvt Ltd</string>
+    <string name="appWebsite">www.kiraninfotech.co.in</string>
+    <string name="developedMessage">Developed by Kiran Infotech</string>
+</resources>
